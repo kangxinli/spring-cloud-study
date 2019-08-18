@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.sample</groupId>
+	<artifactId>spring-cloud-study</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>spring-cloud-study</name>
+	<url>http://maven.apache.org</url>
+	
+	<modules>
+		<module>cloud-simple-docker</module>
+		<module>cloud-simple-eureka</module>
+		<module>cloud-simple-eureka-client</module>
+		<module>cloud-simple-eureka-consumer</module>
+		<module>cloud-simple-eureka-zuul</module>
+		<module>cloud-simple-feign-consumer</module>
+		<module>cloud-simple-helloword</module>
+		<module>cloud-simple-hystrix-command</module>
+		<module>cloud-simple-hystrix-dashboard</module>
+		<module>cloud-simple-hystrix-order</module>
+		<module>cloud-simple-zuul-provider</module>
+		<module>cloud-simple-zuul-router</module>
+	</modules>
+</project>
